@@ -1,0 +1,1325 @@
+[
+  {
+    "event_date": "20250806",
+    "event_timestamp": "1754472016542104",
+    "event_name": "session_start",
+    "event_params": [
+      {
+        "key": "page_location",
+        "value": {
+          "string_value": "https://www.easeaccess24.com/",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_ordering_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_number",
+        "value": {
+          "string_value": null,
+          "int_value": "4",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472016",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_title",
+        "value": {
+          "string_value": "Home - EaseAccess24",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "session_engaged",
+        "value": {
+          "string_value": "0",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_page_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472016386",
+          "float_value": null,
+          "double_value": null
+        }
+      }
+    ],
+    "event_previous_timestamp": null,
+    "event_value_in_usd": null,
+    "event_bundle_sequence_id": "-649037416",
+    "event_server_timestamp_offset": null,
+    "user_id": null,
+    "user_pseudo_id": "1163808061.1750919873",
+    "privacy_info": {
+      "analytics_storage": null,
+      "ads_storage": null,
+      "uses_transient_token": "No"
+    },
+    "user_properties": [],
+    "user_first_touch_timestamp": "1751544914371055",
+    "user_ltv": null,
+    "device": {
+      "category": "desktop",
+      "mobile_brand_name": "Apple",
+      "mobile_model_name": null,
+      "mobile_marketing_name": null,
+      "mobile_os_hardware_model": null,
+      "operating_system": "Macintosh",
+      "operating_system_version": "Macintosh Intel 15.5",
+      "vendor_id": null,
+      "advertising_id": null,
+      "language": "en-gb",
+      "is_limited_ad_tracking": "No",
+      "time_zone_offset_seconds": null,
+      "browser": null,
+      "browser_version": null,
+      "web_info": {
+        "browser": "Chrome",
+        "browser_version": "138.0.7204.93",
+        "hostname": "www.easeaccess24.com"
+      }
+    },
+    "geo": {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "continent": "Europe",
+      "region": null,
+      "sub_continent": "Southern Europe",
+      "metro": "(not set)"
+    },
+    "app_info": null,
+    "traffic_source": {
+      "name": "(direct)",
+      "medium": "(none)",
+      "source": "(direct)"
+    },
+    "stream_id": "11160411366",
+    "platform": "WEB",
+    "event_dimensions": null,
+    "ecommerce": null,
+    "items": [],
+    "collected_traffic_source": null,
+    "is_active_user": null,
+    "batch_event_index": "1",
+    "batch_page_id": "1754472016386",
+    "batch_ordering_id": "1",
+    "session_traffic_source_last_click": null,
+    "publisher": null
+  },
+  {
+    "event_date": "20250806",
+    "event_timestamp": "1754472016542104",
+    "event_name": "page_view",
+    "event_params": [
+      {
+        "key": "batch_ordering_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_location",
+        "value": {
+          "string_value": "https://www.easeaccess24.com/",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_number",
+        "value": {
+          "string_value": null,
+          "int_value": "4",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "session_engaged",
+        "value": {
+          "string_value": "0",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472016",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_title",
+        "value": {
+          "string_value": "Home - EaseAccess24",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "entrances",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_page_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472016386",
+          "float_value": null,
+          "double_value": null
+        }
+      }
+    ],
+    "event_previous_timestamp": null,
+    "event_value_in_usd": null,
+    "event_bundle_sequence_id": "-649037416",
+    "event_server_timestamp_offset": null,
+    "user_id": null,
+    "user_pseudo_id": "1163808061.1750919873",
+    "privacy_info": {
+      "analytics_storage": null,
+      "ads_storage": null,
+      "uses_transient_token": "No"
+    },
+    "user_properties": [],
+    "user_first_touch_timestamp": "1751544914371055",
+    "user_ltv": null,
+    "device": {
+      "category": "desktop",
+      "mobile_brand_name": "Apple",
+      "mobile_model_name": null,
+      "mobile_marketing_name": null,
+      "mobile_os_hardware_model": null,
+      "operating_system": "Macintosh",
+      "operating_system_version": "Macintosh Intel 15.5",
+      "vendor_id": null,
+      "advertising_id": null,
+      "language": "en-gb",
+      "is_limited_ad_tracking": "No",
+      "time_zone_offset_seconds": null,
+      "browser": null,
+      "browser_version": null,
+      "web_info": {
+        "browser": "Chrome",
+        "browser_version": "138.0.7204.93",
+        "hostname": "www.easeaccess24.com"
+      }
+    },
+    "geo": {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "continent": "Europe",
+      "region": null,
+      "sub_continent": "Southern Europe",
+      "metro": "(not set)"
+    },
+    "app_info": null,
+    "traffic_source": {
+      "name": "(direct)",
+      "medium": "(none)",
+      "source": "(direct)"
+    },
+    "stream_id": "11160411366",
+    "platform": "WEB",
+    "event_dimensions": null,
+    "ecommerce": null,
+    "items": [],
+    "collected_traffic_source": null,
+    "is_active_user": null,
+    "batch_event_index": "2",
+    "batch_page_id": "1754472016386",
+    "batch_ordering_id": "1",
+    "session_traffic_source_last_click": null,
+    "publisher": null
+  },
+  {
+    "event_date": "20250806",
+    "event_timestamp": "1754472028879393",
+    "event_name": "first_visit",
+    "event_params": [
+      {
+        "key": "ga_session_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_location",
+        "value": {
+          "string_value": "https://www.easeaccess24.com/",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_number",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_ordering_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_page_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028430",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_title",
+        "value": {
+          "string_value": "Home - EaseAccess24",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "session_engaged",
+        "value": {
+          "string_value": "0",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      }
+    ],
+    "event_previous_timestamp": null,
+    "event_value_in_usd": null,
+    "event_bundle_sequence_id": "-636700127",
+    "event_server_timestamp_offset": null,
+    "user_id": null,
+    "user_pseudo_id": "579796107.1754472028",
+    "privacy_info": {
+      "analytics_storage": null,
+      "ads_storage": null,
+      "uses_transient_token": "No"
+    },
+    "user_properties": [],
+    "user_first_touch_timestamp": "1754472028879393",
+    "user_ltv": null,
+    "device": {
+      "category": "desktop",
+      "mobile_brand_name": "Apple",
+      "mobile_model_name": null,
+      "mobile_marketing_name": null,
+      "mobile_os_hardware_model": null,
+      "operating_system": "Macintosh",
+      "operating_system_version": "Macintosh Intel 15.5",
+      "vendor_id": null,
+      "advertising_id": null,
+      "language": "en-gb",
+      "is_limited_ad_tracking": "No",
+      "time_zone_offset_seconds": null,
+      "browser": null,
+      "browser_version": null,
+      "web_info": {
+        "browser": "Chrome",
+        "browser_version": "138.0.7204.93",
+        "hostname": "www.easeaccess24.com"
+      }
+    },
+    "geo": {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "continent": "Europe",
+      "region": null,
+      "sub_continent": "Southern Europe",
+      "metro": "(not set)"
+    },
+    "app_info": null,
+    "traffic_source": null,
+    "stream_id": "11160411366",
+    "platform": "WEB",
+    "event_dimensions": null,
+    "ecommerce": null,
+    "items": [],
+    "collected_traffic_source": null,
+    "is_active_user": null,
+    "batch_event_index": "1",
+    "batch_page_id": "1754472028430",
+    "batch_ordering_id": "1",
+    "session_traffic_source_last_click": null,
+    "publisher": null
+  },
+  {
+    "event_date": "20250806",
+    "event_timestamp": "1754472028879393",
+    "event_name": "session_start",
+    "event_params": [
+      {
+        "key": "session_engaged",
+        "value": {
+          "string_value": "0",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_page_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028430",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_title",
+        "value": {
+          "string_value": "Home - EaseAccess24",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_ordering_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_location",
+        "value": {
+          "string_value": "https://www.easeaccess24.com/",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_number",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      }
+    ],
+    "event_previous_timestamp": null,
+    "event_value_in_usd": null,
+    "event_bundle_sequence_id": "-636700127",
+    "event_server_timestamp_offset": null,
+    "user_id": null,
+    "user_pseudo_id": "579796107.1754472028",
+    "privacy_info": {
+      "analytics_storage": null,
+      "ads_storage": null,
+      "uses_transient_token": "No"
+    },
+    "user_properties": [],
+    "user_first_touch_timestamp": "1754472028879393",
+    "user_ltv": null,
+    "device": {
+      "category": "desktop",
+      "mobile_brand_name": "Apple",
+      "mobile_model_name": null,
+      "mobile_marketing_name": null,
+      "mobile_os_hardware_model": null,
+      "operating_system": "Macintosh",
+      "operating_system_version": "Macintosh Intel 15.5",
+      "vendor_id": null,
+      "advertising_id": null,
+      "language": "en-gb",
+      "is_limited_ad_tracking": "No",
+      "time_zone_offset_seconds": null,
+      "browser": null,
+      "browser_version": null,
+      "web_info": {
+        "browser": "Chrome",
+        "browser_version": "138.0.7204.93",
+        "hostname": "www.easeaccess24.com"
+      }
+    },
+    "geo": {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "continent": "Europe",
+      "region": null,
+      "sub_continent": "Southern Europe",
+      "metro": "(not set)"
+    },
+    "app_info": null,
+    "traffic_source": null,
+    "stream_id": "11160411366",
+    "platform": "WEB",
+    "event_dimensions": null,
+    "ecommerce": null,
+    "items": [],
+    "collected_traffic_source": null,
+    "is_active_user": null,
+    "batch_event_index": "2",
+    "batch_page_id": "1754472028430",
+    "batch_ordering_id": "1",
+    "session_traffic_source_last_click": null,
+    "publisher": null
+  },
+  {
+    "event_date": "20250806",
+    "event_timestamp": "1754472028879393",
+    "event_name": "page_view",
+    "event_params": [
+      {
+        "key": "session_engaged",
+        "value": {
+          "string_value": "0",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_ordering_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_location",
+        "value": {
+          "string_value": "https://www.easeaccess24.com/",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "entrances",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_page_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028430",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_title",
+        "value": {
+          "string_value": "Home - EaseAccess24",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_number",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028",
+          "float_value": null,
+          "double_value": null
+        }
+      }
+    ],
+    "event_previous_timestamp": null,
+    "event_value_in_usd": null,
+    "event_bundle_sequence_id": "-636700127",
+    "event_server_timestamp_offset": null,
+    "user_id": null,
+    "user_pseudo_id": "579796107.1754472028",
+    "privacy_info": {
+      "analytics_storage": null,
+      "ads_storage": null,
+      "uses_transient_token": "No"
+    },
+    "user_properties": [],
+    "user_first_touch_timestamp": "1754472028879393",
+    "user_ltv": null,
+    "device": {
+      "category": "desktop",
+      "mobile_brand_name": "Apple",
+      "mobile_model_name": null,
+      "mobile_marketing_name": null,
+      "mobile_os_hardware_model": null,
+      "operating_system": "Macintosh",
+      "operating_system_version": "Macintosh Intel 15.5",
+      "vendor_id": null,
+      "advertising_id": null,
+      "language": "en-gb",
+      "is_limited_ad_tracking": "No",
+      "time_zone_offset_seconds": null,
+      "browser": null,
+      "browser_version": null,
+      "web_info": {
+        "browser": "Chrome",
+        "browser_version": "138.0.7204.93",
+        "hostname": "www.easeaccess24.com"
+      }
+    },
+    "geo": {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "continent": "Europe",
+      "region": null,
+      "sub_continent": "Southern Europe",
+      "metro": "(not set)"
+    },
+    "app_info": null,
+    "traffic_source": null,
+    "stream_id": "11160411366",
+    "platform": "WEB",
+    "event_dimensions": null,
+    "ecommerce": null,
+    "items": [],
+    "collected_traffic_source": null,
+    "is_active_user": null,
+    "batch_event_index": "3",
+    "batch_page_id": "1754472028430",
+    "batch_ordering_id": "1",
+    "session_traffic_source_last_click": null,
+    "publisher": null
+  },
+  {
+    "event_date": "20250806",
+    "event_timestamp": "1754472107923592",
+    "event_name": "user_engagement",
+    "event_params": [
+      {
+        "key": "page_title",
+        "value": {
+          "string_value": "Home - EaseAccess24",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "session_engaged",
+        "value": {
+          "string_value": "0",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_page_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028430",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_location",
+        "value": {
+          "string_value": "https://www.easeaccess24.com/",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_number",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "engagement_time_msec",
+        "value": {
+          "string_value": null,
+          "int_value": "1621",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_ordering_id",
+        "value": {
+          "string_value": null,
+          "int_value": "2",
+          "float_value": null,
+          "double_value": null
+        }
+      }
+    ],
+    "event_previous_timestamp": null,
+    "event_value_in_usd": null,
+    "event_bundle_sequence_id": "-557655928",
+    "event_server_timestamp_offset": null,
+    "user_id": null,
+    "user_pseudo_id": "579796107.1754472028",
+    "privacy_info": {
+      "analytics_storage": null,
+      "ads_storage": null,
+      "uses_transient_token": "No"
+    },
+    "user_properties": [],
+    "user_first_touch_timestamp": "1754472028879393",
+    "user_ltv": null,
+    "device": {
+      "category": "desktop",
+      "mobile_brand_name": "Apple",
+      "mobile_model_name": null,
+      "mobile_marketing_name": null,
+      "mobile_os_hardware_model": null,
+      "operating_system": "Macintosh",
+      "operating_system_version": "Macintosh Intel 15.5",
+      "vendor_id": null,
+      "advertising_id": null,
+      "language": "en-gb",
+      "is_limited_ad_tracking": "No",
+      "time_zone_offset_seconds": null,
+      "browser": null,
+      "browser_version": null,
+      "web_info": {
+        "browser": "Chrome",
+        "browser_version": "138.0.7204.93",
+        "hostname": "www.easeaccess24.com"
+      }
+    },
+    "geo": {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "continent": "Europe",
+      "region": null,
+      "sub_continent": "Southern Europe",
+      "metro": "(not set)"
+    },
+    "app_info": null,
+    "traffic_source": null,
+    "stream_id": "11160411366",
+    "platform": "WEB",
+    "event_dimensions": null,
+    "ecommerce": null,
+    "items": [],
+    "collected_traffic_source": null,
+    "is_active_user": null,
+    "batch_event_index": "1",
+    "batch_page_id": "1754472028430",
+    "batch_ordering_id": "2",
+    "session_traffic_source_last_click": null,
+    "publisher": null
+  },
+  {
+    "event_date": "20250806",
+    "event_timestamp": "1754472113173191",
+    "event_name": "page_view",
+    "event_params": [
+      {
+        "key": "ga_session_number",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_title",
+        "value": {
+          "string_value": "Home - EaseAccess24",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_location",
+        "value": {
+          "string_value": "https://www.easeaccess24.com/",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "session_engaged",
+        "value": {
+          "string_value": "1",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_page_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472107688",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_ordering_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      }
+    ],
+    "event_previous_timestamp": null,
+    "event_value_in_usd": null,
+    "event_bundle_sequence_id": "-552406329",
+    "event_server_timestamp_offset": null,
+    "user_id": null,
+    "user_pseudo_id": "579796107.1754472028",
+    "privacy_info": {
+      "analytics_storage": null,
+      "ads_storage": null,
+      "uses_transient_token": "No"
+    },
+    "user_properties": [],
+    "user_first_touch_timestamp": "1754472028879393",
+    "user_ltv": null,
+    "device": {
+      "category": "desktop",
+      "mobile_brand_name": "Apple",
+      "mobile_model_name": null,
+      "mobile_marketing_name": null,
+      "mobile_os_hardware_model": null,
+      "operating_system": "Macintosh",
+      "operating_system_version": "Macintosh Intel 15.5",
+      "vendor_id": null,
+      "advertising_id": null,
+      "language": "en-gb",
+      "is_limited_ad_tracking": "No",
+      "time_zone_offset_seconds": null,
+      "browser": null,
+      "browser_version": null,
+      "web_info": {
+        "browser": "Chrome",
+        "browser_version": "138.0.7204.93",
+        "hostname": "www.easeaccess24.com"
+      }
+    },
+    "geo": {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "continent": "Europe",
+      "region": null,
+      "sub_continent": "Southern Europe",
+      "metro": "(not set)"
+    },
+    "app_info": null,
+    "traffic_source": null,
+    "stream_id": "11160411366",
+    "platform": "WEB",
+    "event_dimensions": null,
+    "ecommerce": null,
+    "items": [],
+    "collected_traffic_source": null,
+    "is_active_user": null,
+    "batch_event_index": "1",
+    "batch_page_id": "1754472107688",
+    "batch_ordering_id": "1",
+    "session_traffic_source_last_click": null,
+    "publisher": null
+  },
+  {
+    "event_date": "20250806",
+    "event_timestamp": "1754472118036023",
+    "event_name": "user_engagement",
+    "event_params": [
+      {
+        "key": "batch_ordering_id",
+        "value": {
+          "string_value": null,
+          "int_value": "2",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_location",
+        "value": {
+          "string_value": "https://www.easeaccess24.com/",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_page_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472107688",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "engagement_time_msec",
+        "value": {
+          "string_value": null,
+          "int_value": "2073",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_number",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "session_engaged",
+        "value": {
+          "string_value": "1",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_title",
+        "value": {
+          "string_value": "Home - EaseAccess24",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      }
+    ],
+    "event_previous_timestamp": null,
+    "event_value_in_usd": null,
+    "event_bundle_sequence_id": "-547543497",
+    "event_server_timestamp_offset": null,
+    "user_id": null,
+    "user_pseudo_id": "579796107.1754472028",
+    "privacy_info": {
+      "analytics_storage": null,
+      "ads_storage": null,
+      "uses_transient_token": "No"
+    },
+    "user_properties": [],
+    "user_first_touch_timestamp": "1754472028879393",
+    "user_ltv": null,
+    "device": {
+      "category": "desktop",
+      "mobile_brand_name": "Apple",
+      "mobile_model_name": null,
+      "mobile_marketing_name": null,
+      "mobile_os_hardware_model": null,
+      "operating_system": "Macintosh",
+      "operating_system_version": "Macintosh Intel 15.5",
+      "vendor_id": null,
+      "advertising_id": null,
+      "language": "en-gb",
+      "is_limited_ad_tracking": "No",
+      "time_zone_offset_seconds": null,
+      "browser": null,
+      "browser_version": null,
+      "web_info": {
+        "browser": "Chrome",
+        "browser_version": "138.0.7204.93",
+        "hostname": "www.easeaccess24.com"
+      }
+    },
+    "geo": {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "continent": "Europe",
+      "region": null,
+      "sub_continent": "Southern Europe",
+      "metro": "(not set)"
+    },
+    "app_info": null,
+    "traffic_source": null,
+    "stream_id": "11160411366",
+    "platform": "WEB",
+    "event_dimensions": null,
+    "ecommerce": null,
+    "items": [],
+    "collected_traffic_source": null,
+    "is_active_user": null,
+    "batch_event_index": "1",
+    "batch_page_id": "1754472107688",
+    "batch_ordering_id": "2",
+    "session_traffic_source_last_click": null,
+    "publisher": null
+  },
+  {
+    "event_date": "20250806",
+    "event_timestamp": "1754472120114940",
+    "event_name": "page_view",
+    "event_params": [
+      {
+        "key": "batch_ordering_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "session_engaged",
+        "value": {
+          "string_value": "1",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_number",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_page_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472116433",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_location",
+        "value": {
+          "string_value": "https://www.easeaccess24.com/",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_title",
+        "value": {
+          "string_value": "Home - EaseAccess24",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      }
+    ],
+    "event_previous_timestamp": null,
+    "event_value_in_usd": null,
+    "event_bundle_sequence_id": "-545464580",
+    "event_server_timestamp_offset": null,
+    "user_id": null,
+    "user_pseudo_id": "579796107.1754472028",
+    "privacy_info": {
+      "analytics_storage": null,
+      "ads_storage": null,
+      "uses_transient_token": "No"
+    },
+    "user_properties": [],
+    "user_first_touch_timestamp": "1754472028879393",
+    "user_ltv": null,
+    "device": {
+      "category": "desktop",
+      "mobile_brand_name": "Apple",
+      "mobile_model_name": null,
+      "mobile_marketing_name": null,
+      "mobile_os_hardware_model": null,
+      "operating_system": "Macintosh",
+      "operating_system_version": "Macintosh Intel 15.5",
+      "vendor_id": null,
+      "advertising_id": null,
+      "language": "en-gb",
+      "is_limited_ad_tracking": "No",
+      "time_zone_offset_seconds": null,
+      "browser": null,
+      "browser_version": null,
+      "web_info": {
+        "browser": "Chrome",
+        "browser_version": "138.0.7204.93",
+        "hostname": "www.easeaccess24.com"
+      }
+    },
+    "geo": {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "continent": "Europe",
+      "region": null,
+      "sub_continent": "Southern Europe",
+      "metro": "(not set)"
+    },
+    "app_info": null,
+    "traffic_source": null,
+    "stream_id": "11160411366",
+    "platform": "WEB",
+    "event_dimensions": null,
+    "ecommerce": null,
+    "items": [],
+    "collected_traffic_source": null,
+    "is_active_user": null,
+    "batch_event_index": "1",
+    "batch_page_id": "1754472116433",
+    "batch_ordering_id": "1",
+    "session_traffic_source_last_click": null,
+    "publisher": null
+  },
+  {
+    "event_date": "20250806",
+    "event_timestamp": "1754472120114940",
+    "event_name": "user_engagement",
+    "event_params": [
+      {
+        "key": "ga_session_number",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_ordering_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "ga_session_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472028",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_title",
+        "value": {
+          "string_value": "Home - EaseAccess24",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "batch_page_id",
+        "value": {
+          "string_value": null,
+          "int_value": "1754472116433",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "session_engaged",
+        "value": {
+          "string_value": "1",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "engagement_time_msec",
+        "value": {
+          "string_value": null,
+          "int_value": "3264",
+          "float_value": null,
+          "double_value": null
+        }
+      },
+      {
+        "key": "page_location",
+        "value": {
+          "string_value": "https://www.easeaccess24.com/",
+          "int_value": null,
+          "float_value": null,
+          "double_value": null
+        }
+      }
+    ],
+    "event_previous_timestamp": null,
+    "event_value_in_usd": null,
+    "event_bundle_sequence_id": "-545464580",
+    "event_server_timestamp_offset": null,
+    "user_id": null,
+    "user_pseudo_id": "579796107.1754472028",
+    "privacy_info": {
+      "analytics_storage": null,
+      "ads_storage": null,
+      "uses_transient_token": "No"
+    },
+    "user_properties": [],
+    "user_first_touch_timestamp": "1754472028879393",
+    "user_ltv": null,
+    "device": {
+      "category": "desktop",
+      "mobile_brand_name": "Apple",
+      "mobile_model_name": null,
+      "mobile_marketing_name": null,
+      "mobile_os_hardware_model": null,
+      "operating_system": "Macintosh",
+      "operating_system_version": "Macintosh Intel 15.5",
+      "vendor_id": null,
+      "advertising_id": null,
+      "language": "en-gb",
+      "is_limited_ad_tracking": "No",
+      "time_zone_offset_seconds": null,
+      "browser": null,
+      "browser_version": null,
+      "web_info": {
+        "browser": "Chrome",
+        "browser_version": "138.0.7204.93",
+        "hostname": "www.easeaccess24.com"
+      }
+    },
+    "geo": {
+      "city": "Skopje",
+      "country": "North Macedonia",
+      "continent": "Europe",
+      "region": null,
+      "sub_continent": "Southern Europe",
+      "metro": "(not set)"
+    },
+    "app_info": null,
+    "traffic_source": null,
+    "stream_id": "11160411366",
+    "platform": "WEB",
+    "event_dimensions": null,
+    "ecommerce": null,
+    "items": [],
+    "collected_traffic_source": null,
+    "is_active_user": null,
+    "batch_event_index": "2",
+    "batch_page_id": "1754472116433",
+    "batch_ordering_id": "1",
+    "session_traffic_source_last_click": null,
+    "publisher": null
+  }
+]
