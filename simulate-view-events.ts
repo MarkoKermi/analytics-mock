@@ -7,7 +7,7 @@ import path from "path";
 const measurementId = "G-FDJV9LC30R";
 const apiSecret = "ttIAOG30SN-ztsiOHquh8w";
 
-const BASE_URL = "https://smarthub.mk/pricing";
+const BASE_URL = "https://smarthub.mk";
 
 function buildUtmUrl({
   source,
@@ -36,22 +36,23 @@ async function generateUtmLinksFromJson() {
   const raw = await fs.readFile(dataPath, "utf-8");
   const json = JSON.parse(raw);
 
-  for (const org of json) {
-    const campaign = org.campaign;
-    for (const ad of campaign.ads) {
-      for (const link of ad.links) {
-        const fullUrl = buildUtmUrl({
-          source: link.source,
-          medium: link.medium,
-          campaignId: campaign.id,
-          adId: ad.id,
-          linkId: link.id,
-        });
+    for (const org of json) {
+    const campaigns = org.campaign;
+    for (const campaign of campaigns) {
+      for (const ad of campaign.ads) {
+        for (const link of ad.links) {
+          const fullUrl = buildUtmUrl({
+            source: link.source,
+            medium: link.medium,
+            campaignId: campaign.id,
+            adId: ad.id,
+            linkId: link.id,
+          });
 
-        console.log(fullUrl);
+          console.log(fullUrl);
 
-        
-        await sendMockView(fullUrl, Date.now() * 1000);
+          await sendMockView(fullUrl, Date.now() * 1000);
+        }
       }
     }
   }
@@ -111,7 +112,6 @@ generateUtmLinksFromJson()
 // import fs from "fs/promises";
 // import path from "path";
 
-
 // const measurementId = "G-FDJV9LC30R";
 // const apiSecret = "ttIAOG30SN-ztsiOHquh8w";
 
@@ -145,37 +145,38 @@ generateUtmLinksFromJson()
 //   const json = JSON.parse(raw);
 
 //   for (const org of json) {
-//     const campaign = org.campaign;
-//     for (const ad of campaign.ads) {
-//       for (const link of ad.links) {
-//         const fullUrl = buildUtmUrl({
-//           source: link.source,
-//           medium: link.medium,
-//           campaignId: campaign.id,
-//           adId: ad.id,
-//           linkId: link.id,
-//         });
+//     const campaigns = org.campaign;
+//     for (const campaign of campaigns) {
+//       for (const ad of campaign.ads) {
+//         for (const link of ad.links) {
+//           const fullUrl = buildUtmUrl({
+//             source: link.source,
+//             medium: link.medium,
+//             campaignId: campaign.id,
+//             adId: ad.id,
+//             linkId: link.id,
+//           });
 
-//         console.log(fullUrl);
+//           console.log(fullUrl);
 
-        
-//         await sendMockView(fullUrl, Date.now() * 1000);
+//           await sendMockView(fullUrl, Date.now() * 1000);
+//         }
 //       }
 //     }
 //   }
 // }
 
-// function getRandomInt(min, max) {
+// function getRandomInt(min: number, max: number) {
 //   return Math.floor(Math.random() * (max - min + 1)) + min;
 // }
 
-// function generateClientId(timestamp) {
+// function generateClientId(timestamp: number) {
 //   const randomPart = getRandomInt(1000000000, 9999999999);
 //   const timestampPart = String(Math.floor(timestamp / 1000));
 //   return `${randomPart}.${timestampPart}`;
 // }
 
-// async function sendMockView(pageUrl, timestampMicros) {
+// async function sendMockView(pageUrl: string, timestampMicros: number) {
 //   const payload = {
 //     client_id: generateClientId(timestampMicros),
 //     timestamp_micros: timestampMicros,
@@ -185,10 +186,10 @@ generateUtmLinksFromJson()
 //         name: "page_view",
 //         params: {
 //           page_location: pageUrl,
-//           engagement_time_msec: 1000
-//         }
-//       }
-//     ]
+//           engagement_time_msec: 1000,
+//         },
+//       },
+//     ],
 //   };
 
 //   const res = await fetch(
@@ -196,12 +197,12 @@ generateUtmLinksFromJson()
 //     {
 //       method: "POST",
 //       headers: { "Content-Type": "application/json" },
-//       body: JSON.stringify(payload)
+//       body: JSON.stringify(payload),
 //     }
 //   );
 
 //   if (!res.ok) {
-//     console.error(`Error ${res.status}: ${await res.text()}`);
+//     console.error(`❌ Error ${res.status}: ${await res.text()}`);
 //   } else {
 //     console.log(`✅ Sent view: ${pageUrl}`);
 //   }
@@ -213,30 +214,34 @@ generateUtmLinksFromJson()
 //   const json = JSON.parse(raw);
 
 //   const viewsPerLink = 100;
-//   const totalDurationMs = 24 * 60 * 60 * 1000; 
+//   const totalDurationMs = 24 * 60 * 60 * 1000;
 
 //   for (const org of json) {
-//     for (const ad of org.campaign.ads) {
-//       for (const link of ad.links) {
-//         const fullUrl = buildUtmUrl({
-//           source: link.source,
-//           medium: link.medium,
-//           campaignId: org.campaign.id,
-//           adId: ad.id,
-//           linkId: link.id
-//         });
+//     const campaigns = org.campaign;
+//     for (const campaign of campaigns) {
+//       for (const ad of campaign.ads) {
+//         for (const link of ad.links) {
+//           const fullUrl = buildUtmUrl({
+//             source: link.source,
+//             medium: link.medium,
+//             campaignId: campaign.id,
+//             adId: ad.id,
+//             linkId: link.id,
+//           });
 
-//         console.log(`📌 Scheduling ${viewsPerLink} views for: ${fullUrl}`);
+//           console.log(`📌 Scheduling ${viewsPerLink} views for: ${fullUrl}`);
 
-//         // Spread events over 24 hours
-//         for (let i = 0; i < viewsPerLink; i++) {
-//           const offset = Math.floor((i / viewsPerLink) * totalDurationMs) + getRandomInt(-300000, 300000); // ±5 min
-//           const eventTime = Date.now() + offset;
-//           const delay = eventTime - Date.now();
+//           for (let i = 0; i < viewsPerLink; i++) {
+//             const offset =
+//               Math.floor((i / viewsPerLink) * totalDurationMs) +
+//               getRandomInt(-300000, 300000); // ±5 minutes
+//             const eventTime = Date.now() + offset;
+//             const delay = eventTime - Date.now();
 
-//           setTimeout(() => {
-//             sendMockView(fullUrl, eventTime * 1000);
-//           }, delay);
+//             setTimeout(() => {
+//               sendMockView(fullUrl, eventTime * 1000);
+//             }, delay);
+//           }
 //         }
 //       }
 //     }
@@ -248,6 +253,7 @@ generateUtmLinksFromJson()
 // generateUtmLinksFromJson()
 //   .then(() => console.log("🎉 All UTM links processed and mock events sent"))
 //   .catch(console.error);
+
 
 
 

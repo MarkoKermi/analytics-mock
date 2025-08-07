@@ -1,174 +1,510 @@
 [
   {
     "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
-    "campaign": {
-      "id": "a1f589a6-69d0-41a0-845b-b46094cf0edc",
-      "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
-      "name": "Campaign 1",
-      "duration": "30 days",
-      "views": 0,
-      "createdBy": null,
-      "deletedAt": null,
-      "createdAt": "2025-08-05T12:02:01.563Z",
-      "updatedAt": "2025-08-05T12:02:01.563Z",
-      "ads": [
-        {
-          "id": "a981c394-565b-41cf-8887-fc54e0500497",
-          "campaignId": "a1f589a6-69d0-41a0-845b-b46094cf0edc",
-          "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
-          "name": "Ad 1-1",
-          "views": 0,
-          "createdBy": null,
-          "deletedAt": null,
-          "createdAt": "2025-08-05T12:02:01.618Z",
-          "updatedAt": "2025-08-05T12:02:01.618Z",
-          "links": [
-            {
-              "id": "2a8c4908-fc08-483c-867b-88cc52fb0c98",
-              "adId": "a981c394-565b-41cf-8887-fc54e0500497",
-              "linkName": "Link 1-1-1",
-              "targetUrl": "https://test.com",
-              "source": "newsletter",
-              "medium": "email",
-              "deletedAt": null,
-              "createdAt": "2025-08-05T12:02:01.673Z",
-              "updatedAt": "2025-08-05T12:02:01.673Z"
-            },
-            {
-              "id": "a4c8ce89-33da-4af3-b5ec-5a29470d5ab7",
-              "adId": "a981c394-565b-41cf-8887-fc54e0500497",
-              "linkName": "Link 1-1-2",
-              "targetUrl": "https://test.com",
-              "source": "newsletter",
-              "medium": "email",
-              "deletedAt": null,
-              "createdAt": "2025-08-05T12:02:01.724Z",
-              "updatedAt": "2025-08-05T12:02:01.724Z"
-            }
-          ]
-        },
-        {
-          "id": "e3fde05a-460e-46ba-8a71-fbbd68868bc5",
-          "campaignId": "a1f589a6-69d0-41a0-845b-b46094cf0edc",
-          "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
-          "name": "Ad 1-2",
-          "views": 0,
-          "createdBy": null,
-          "deletedAt": null,
-          "createdAt": "2025-08-05T12:02:01.774Z",
-          "updatedAt": "2025-08-05T12:02:01.774Z",
-          "links": [
-            {
-              "id": "5c08b291-b9cb-42f5-a4a0-e9ac2cdf9ceb",
-              "adId": "e3fde05a-460e-46ba-8a71-fbbd68868bc5",
-              "linkName": "Link 1-2-1",
-              "targetUrl": "https://test.com",
-              "source": "newsletter",
-              "medium": "email",
-              "deletedAt": null,
-              "createdAt": "2025-08-05T12:02:01.824Z",
-              "updatedAt": "2025-08-05T12:02:01.824Z"
-            },
-            {
-              "id": "72262745-e80c-469b-b1c9-4ba89f643a05",
-              "adId": "e3fde05a-460e-46ba-8a71-fbbd68868bc5",
-              "linkName": "Link 1-2-2",
-              "targetUrl": "https://test.com",
-              "source": "newsletter",
-              "medium": "email",
-              "deletedAt": null,
-              "createdAt": "2025-08-05T12:02:01.872Z",
-              "updatedAt": "2025-08-05T12:02:01.872Z"
-            }
-          ]
-        }
-      ]
-    }
+    "campaign": [
+      {
+        "id": "dae26847-fdf1-4504-ae79-48c7f06398e4",
+        "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
+        "name": "New Campaign 1-1",
+        "duration": "30 days",
+        "views": 0,
+        "createdBy": null,
+        "deletedAt": null,
+        "createdAt": "2025-08-07T16:45:39.782Z",
+        "updatedAt": "2025-08-07T16:45:39.782Z",
+        "ads": [
+          {
+            "id": "fd463d2e-973f-42d3-a82b-c6fcfd8d6a25",
+            "campaignId": "dae26847-fdf1-4504-ae79-48c7f06398e4",
+            "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
+            "name": "New Ad 1-1-1",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-07T16:45:39.863Z",
+            "updatedAt": "2025-08-07T16:45:39.863Z",
+            "links": [
+              {
+                "id": "9861c3c8-b004-4e8b-8c21-914859deb57c",
+                "adId": "fd463d2e-973f-42d3-a82b-c6fcfd8d6a25",
+                "linkName": "New Link 1-1-1-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:39.940Z",
+                "updatedAt": "2025-08-07T16:45:39.940Z"
+              },
+              {
+                "id": "c91e9189-32a9-4b2b-9abf-076151301fac",
+                "adId": "fd463d2e-973f-42d3-a82b-c6fcfd8d6a25",
+                "linkName": "New Link 1-1-1-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:40.014Z",
+                "updatedAt": "2025-08-07T16:45:40.014Z"
+              }
+            ]
+          },
+          {
+            "id": "a58c2d78-8976-463f-bdea-9ee8b1b74670",
+            "campaignId": "dae26847-fdf1-4504-ae79-48c7f06398e4",
+            "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
+            "name": "New Ad 1-1-2",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-07T16:45:40.084Z",
+            "updatedAt": "2025-08-07T16:45:40.084Z",
+            "links": [
+              {
+                "id": "05c0094e-f72c-42f8-9381-4bdb91f60254",
+                "adId": "a58c2d78-8976-463f-bdea-9ee8b1b74670",
+                "linkName": "New Link 1-1-2-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:40.153Z",
+                "updatedAt": "2025-08-07T16:45:40.153Z"
+              },
+              {
+                "id": "5606de3a-bbee-4c21-b3e1-02c45b0aed34",
+                "adId": "a58c2d78-8976-463f-bdea-9ee8b1b74670",
+                "linkName": "New Link 1-1-2-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:40.218Z",
+                "updatedAt": "2025-08-07T16:45:40.218Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6d603fb1-2e93-47a2-b3eb-4307b0410929",
+        "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
+        "name": "New Campaign 1-2",
+        "duration": "30 days",
+        "views": 0,
+        "createdBy": null,
+        "deletedAt": null,
+        "createdAt": "2025-08-07T16:45:40.284Z",
+        "updatedAt": "2025-08-07T16:45:40.284Z",
+        "ads": [
+          {
+            "id": "986eabaf-c30e-4295-bc55-11ffd7472908",
+            "campaignId": "6d603fb1-2e93-47a2-b3eb-4307b0410929",
+            "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
+            "name": "New Ad 1-2-1",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-07T16:45:40.354Z",
+            "updatedAt": "2025-08-07T16:45:40.354Z",
+            "links": [
+              {
+                "id": "e0e178dc-2f5f-440f-9411-1710b9a48f72",
+                "adId": "986eabaf-c30e-4295-bc55-11ffd7472908",
+                "linkName": "New Link 1-2-1-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:40.449Z",
+                "updatedAt": "2025-08-07T16:45:40.449Z"
+              },
+              {
+                "id": "cfaa28f6-5e86-4a1e-9cb5-914d0eafdf97",
+                "adId": "986eabaf-c30e-4295-bc55-11ffd7472908",
+                "linkName": "New Link 1-2-1-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:40.515Z",
+                "updatedAt": "2025-08-07T16:45:40.515Z"
+              }
+            ]
+          },
+          {
+            "id": "86a45cec-185a-4f42-8fb4-bf9fd87bdf85",
+            "campaignId": "6d603fb1-2e93-47a2-b3eb-4307b0410929",
+            "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
+            "name": "New Ad 1-2-2",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-07T16:45:40.583Z",
+            "updatedAt": "2025-08-07T16:45:40.583Z",
+            "links": [
+              {
+                "id": "8312ea78-d975-46da-94ea-35c1bb4e6353",
+                "adId": "86a45cec-185a-4f42-8fb4-bf9fd87bdf85",
+                "linkName": "New Link 1-2-2-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:40.653Z",
+                "updatedAt": "2025-08-07T16:45:40.653Z"
+              },
+              {
+                "id": "5cc86fb6-0115-492d-8b96-ebcfccc0e334",
+                "adId": "86a45cec-185a-4f42-8fb4-bf9fd87bdf85",
+                "linkName": "New Link 1-2-2-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:40.744Z",
+                "updatedAt": "2025-08-07T16:45:40.744Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a1f589a6-69d0-41a0-845b-b46094cf0edc",
+        "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
+        "name": "Campaign 1",
+        "duration": "30 days",
+        "views": 0,
+        "createdBy": null,
+        "deletedAt": null,
+        "createdAt": "2025-08-05T12:02:01.563Z",
+        "updatedAt": "2025-08-05T12:02:01.563Z",
+        "ads": [
+          {
+            "id": "a981c394-565b-41cf-8887-fc54e0500497",
+            "campaignId": "a1f589a6-69d0-41a0-845b-b46094cf0edc",
+            "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
+            "name": "Ad 1-1",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-05T12:02:01.618Z",
+            "updatedAt": "2025-08-05T12:02:01.618Z",
+            "links": [
+              {
+                "id": "2a8c4908-fc08-483c-867b-88cc52fb0c98",
+                "adId": "a981c394-565b-41cf-8887-fc54e0500497",
+                "linkName": "Link 1-1-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-05T12:02:01.673Z",
+                "updatedAt": "2025-08-05T12:02:01.673Z"
+              },
+              {
+                "id": "a4c8ce89-33da-4af3-b5ec-5a29470d5ab7",
+                "adId": "a981c394-565b-41cf-8887-fc54e0500497",
+                "linkName": "Link 1-1-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-05T12:02:01.724Z",
+                "updatedAt": "2025-08-05T12:02:01.724Z"
+              }
+            ]
+          },
+          {
+            "id": "e3fde05a-460e-46ba-8a71-fbbd68868bc5",
+            "campaignId": "a1f589a6-69d0-41a0-845b-b46094cf0edc",
+            "organisationId": "0b4e0423-ab5b-4a69-9ee0-97a22de69f9e",
+            "name": "Ad 1-2",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-05T12:02:01.774Z",
+            "updatedAt": "2025-08-05T12:02:01.774Z",
+            "links": [
+              {
+                "id": "5c08b291-b9cb-42f5-a4a0-e9ac2cdf9ceb",
+                "adId": "e3fde05a-460e-46ba-8a71-fbbd68868bc5",
+                "linkName": "Link 1-2-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-05T12:02:01.824Z",
+                "updatedAt": "2025-08-05T12:02:01.824Z"
+              },
+              {
+                "id": "72262745-e80c-469b-b1c9-4ba89f643a05",
+                "adId": "e3fde05a-460e-46ba-8a71-fbbd68868bc5",
+                "linkName": "Link 1-2-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-05T12:02:01.872Z",
+                "updatedAt": "2025-08-05T12:02:01.872Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
-    "campaign": {
-      "id": "8125c23a-8dcf-4c68-93da-25f543bee0a5",
-      "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
-      "name": "Campaign 2",
-      "duration": "30 days",
-      "views": 0,
-      "createdBy": null,
-      "deletedAt": null,
-      "createdAt": "2025-08-05T12:02:01.966Z",
-      "updatedAt": "2025-08-05T12:02:01.966Z",
-      "ads": [
-        {
-          "id": "31e3efbb-b0c7-4664-ac02-2df13fc244c0",
-          "campaignId": "8125c23a-8dcf-4c68-93da-25f543bee0a5",
-          "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
-          "name": "Ad 2-1",
-          "views": 0,
-          "createdBy": null,
-          "deletedAt": null,
-          "createdAt": "2025-08-05T12:02:02.016Z",
-          "updatedAt": "2025-08-05T12:02:02.016Z",
-          "links": [
-            {
-              "id": "0f89c2b6-cbb2-4143-87d8-54dbd3ba6dfa",
-              "adId": "31e3efbb-b0c7-4664-ac02-2df13fc244c0",
-              "linkName": "Link 2-1-1",
-              "targetUrl": "https://test.com",
-              "source": "newsletter",
-              "medium": "email",
-              "deletedAt": null,
-              "createdAt": "2025-08-05T12:02:02.068Z",
-              "updatedAt": "2025-08-05T12:02:02.068Z"
-            },
-            {
-              "id": "fcd38e60-52bc-458f-9c73-f00c7219128c",
-              "adId": "31e3efbb-b0c7-4664-ac02-2df13fc244c0",
-              "linkName": "Link 2-1-2",
-              "targetUrl": "https://test.com",
-              "source": "newsletter",
-              "medium": "email",
-              "deletedAt": null,
-              "createdAt": "2025-08-05T12:02:02.120Z",
-              "updatedAt": "2025-08-05T12:02:02.120Z"
-            }
-          ]
-        },
-        {
-          "id": "444b869a-b5ff-46d7-bc5b-33e975353f8e",
-          "campaignId": "8125c23a-8dcf-4c68-93da-25f543bee0a5",
-          "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
-          "name": "Ad 2-2",
-          "views": 0,
-          "createdBy": null,
-          "deletedAt": null,
-          "createdAt": "2025-08-05T12:02:02.172Z",
-          "updatedAt": "2025-08-05T12:02:02.172Z",
-          "links": [
-            {
-              "id": "d810b48f-b527-4888-9b1e-08fae4ea8549",
-              "adId": "444b869a-b5ff-46d7-bc5b-33e975353f8e",
-              "linkName": "Link 2-2-1",
-              "targetUrl": "https://test.com",
-              "source": "newsletter",
-              "medium": "email",
-              "deletedAt": null,
-              "createdAt": "2025-08-05T12:02:02.220Z",
-              "updatedAt": "2025-08-05T12:02:02.220Z"
-            },
-            {
-              "id": "9f08e92f-e07c-4c99-b963-8520a2174396",
-              "adId": "444b869a-b5ff-46d7-bc5b-33e975353f8e",
-              "linkName": "Link 2-2-2",
-              "targetUrl": "https://test.com",
-              "source": "newsletter",
-              "medium": "email",
-              "deletedAt": null,
-              "createdAt": "2025-08-05T12:02:02.270Z",
-              "updatedAt": "2025-08-05T12:02:02.270Z"
-            }
-          ]
-        }
-      ]
-    }
+    "campaign": [
+      {
+        "id": "1f63aa2b-aa04-400f-8a12-ea21d31ad0b9",
+        "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
+        "name": "New Campaign 2-1",
+        "duration": "30 days",
+        "views": 0,
+        "createdBy": null,
+        "deletedAt": null,
+        "createdAt": "2025-08-07T16:45:40.879Z",
+        "updatedAt": "2025-08-07T16:45:40.879Z",
+        "ads": [
+          {
+            "id": "7017b591-7d63-4823-b12e-b97a766790cd",
+            "campaignId": "1f63aa2b-aa04-400f-8a12-ea21d31ad0b9",
+            "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
+            "name": "New Ad 2-1-1",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-07T16:45:40.954Z",
+            "updatedAt": "2025-08-07T16:45:40.954Z",
+            "links": [
+              {
+                "id": "18944d3e-5824-44b9-8913-1564a98202dd",
+                "adId": "7017b591-7d63-4823-b12e-b97a766790cd",
+                "linkName": "New Link 2-1-1-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:41.039Z",
+                "updatedAt": "2025-08-07T16:45:41.039Z"
+              },
+              {
+                "id": "8d4dd3cc-f713-490c-b0e0-2f0df5950953",
+                "adId": "7017b591-7d63-4823-b12e-b97a766790cd",
+                "linkName": "New Link 2-1-1-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:41.108Z",
+                "updatedAt": "2025-08-07T16:45:41.108Z"
+              }
+            ]
+          },
+          {
+            "id": "ca8d6ff1-333b-42e4-bffd-4f4a528e74d1",
+            "campaignId": "1f63aa2b-aa04-400f-8a12-ea21d31ad0b9",
+            "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
+            "name": "New Ad 2-1-2",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-07T16:45:41.176Z",
+            "updatedAt": "2025-08-07T16:45:41.176Z",
+            "links": [
+              {
+                "id": "5b66a56e-ea69-4b5a-9f14-ed2c1cc59ebc",
+                "adId": "ca8d6ff1-333b-42e4-bffd-4f4a528e74d1",
+                "linkName": "New Link 2-1-2-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:41.251Z",
+                "updatedAt": "2025-08-07T16:45:41.251Z"
+              },
+              {
+                "id": "c81583b8-694f-4625-9ecb-44a3536d640c",
+                "adId": "ca8d6ff1-333b-42e4-bffd-4f4a528e74d1",
+                "linkName": "New Link 2-1-2-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:41.351Z",
+                "updatedAt": "2025-08-07T16:45:41.351Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eb76fbbe-00d1-42a5-88b9-009cc2a3c889",
+        "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
+        "name": "New Campaign 2-2",
+        "duration": "30 days",
+        "views": 0,
+        "createdBy": null,
+        "deletedAt": null,
+        "createdAt": "2025-08-07T16:45:41.444Z",
+        "updatedAt": "2025-08-07T16:45:41.444Z",
+        "ads": [
+          {
+            "id": "ac2a0257-2933-4e2e-a2ff-a94e13ec609a",
+            "campaignId": "eb76fbbe-00d1-42a5-88b9-009cc2a3c889",
+            "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
+            "name": "New Ad 2-2-1",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-07T16:45:41.533Z",
+            "updatedAt": "2025-08-07T16:45:41.533Z",
+            "links": [
+              {
+                "id": "4089ec59-caec-4454-b600-c4e846f97d4e",
+                "adId": "ac2a0257-2933-4e2e-a2ff-a94e13ec609a",
+                "linkName": "New Link 2-2-1-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:41.605Z",
+                "updatedAt": "2025-08-07T16:45:41.605Z"
+              },
+              {
+                "id": "02a67ee3-b5b7-4b64-b586-aa30aa992be5",
+                "adId": "ac2a0257-2933-4e2e-a2ff-a94e13ec609a",
+                "linkName": "New Link 2-2-1-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:41.672Z",
+                "updatedAt": "2025-08-07T16:45:41.672Z"
+              }
+            ]
+          },
+          {
+            "id": "5d614856-c94f-4617-8023-640313837444",
+            "campaignId": "eb76fbbe-00d1-42a5-88b9-009cc2a3c889",
+            "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
+            "name": "New Ad 2-2-2",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-07T16:45:41.747Z",
+            "updatedAt": "2025-08-07T16:45:41.747Z",
+            "links": [
+              {
+                "id": "ce77f9fe-c912-4a32-9615-eb9545246b9c",
+                "adId": "5d614856-c94f-4617-8023-640313837444",
+                "linkName": "New Link 2-2-2-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:41.817Z",
+                "updatedAt": "2025-08-07T16:45:41.817Z"
+              },
+              {
+                "id": "8562de9b-effd-415e-93e6-5429ae853e20",
+                "adId": "5d614856-c94f-4617-8023-640313837444",
+                "linkName": "New Link 2-2-2-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-07T16:45:41.884Z",
+                "updatedAt": "2025-08-07T16:45:41.884Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8125c23a-8dcf-4c68-93da-25f543bee0a5",
+        "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
+        "name": "Campaign 2",
+        "duration": "30 days",
+        "views": 0,
+        "createdBy": null,
+        "deletedAt": null,
+        "createdAt": "2025-08-05T12:02:01.966Z",
+        "updatedAt": "2025-08-05T12:02:01.966Z",
+        "ads": [
+          {
+            "id": "31e3efbb-b0c7-4664-ac02-2df13fc244c0",
+            "campaignId": "8125c23a-8dcf-4c68-93da-25f543bee0a5",
+            "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
+            "name": "Ad 2-1",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-05T12:02:02.016Z",
+            "updatedAt": "2025-08-05T12:02:02.016Z",
+            "links": [
+              {
+                "id": "0f89c2b6-cbb2-4143-87d8-54dbd3ba6dfa",
+                "adId": "31e3efbb-b0c7-4664-ac02-2df13fc244c0",
+                "linkName": "Link 2-1-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-05T12:02:02.068Z",
+                "updatedAt": "2025-08-05T12:02:02.068Z"
+              },
+              {
+                "id": "fcd38e60-52bc-458f-9c73-f00c7219128c",
+                "adId": "31e3efbb-b0c7-4664-ac02-2df13fc244c0",
+                "linkName": "Link 2-1-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-05T12:02:02.120Z",
+                "updatedAt": "2025-08-05T12:02:02.120Z"
+              }
+            ]
+          },
+          {
+            "id": "444b869a-b5ff-46d7-bc5b-33e975353f8e",
+            "campaignId": "8125c23a-8dcf-4c68-93da-25f543bee0a5",
+            "organisationId": "3191168e-3393-4980-bd05-c38c112922a1",
+            "name": "Ad 2-2",
+            "views": 0,
+            "createdBy": null,
+            "deletedAt": null,
+            "createdAt": "2025-08-05T12:02:02.172Z",
+            "updatedAt": "2025-08-05T12:02:02.172Z",
+            "links": [
+              {
+                "id": "d810b48f-b527-4888-9b1e-08fae4ea8549",
+                "adId": "444b869a-b5ff-46d7-bc5b-33e975353f8e",
+                "linkName": "Link 2-2-1",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-05T12:02:02.220Z",
+                "updatedAt": "2025-08-05T12:02:02.220Z"
+              },
+              {
+                "id": "9f08e92f-e07c-4c99-b963-8520a2174396",
+                "adId": "444b869a-b5ff-46d7-bc5b-33e975353f8e",
+                "linkName": "Link 2-2-2",
+                "targetUrl": "https://test.com",
+                "source": "newsletter",
+                "medium": "email",
+                "deletedAt": null,
+                "createdAt": "2025-08-05T12:02:02.270Z",
+                "updatedAt": "2025-08-05T12:02:02.270Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
